@@ -6,6 +6,6 @@ module Types
 
     field :blog, BlogType, null: false,
     def blog
-      context[:blog]
+      Blog.last
     end  
 end

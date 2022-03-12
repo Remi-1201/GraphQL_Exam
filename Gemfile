@@ -18,8 +18,8 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'sprockets', '~> 3.7.2'
-gem 'graphql', '~>1.12'
-gem 'graphiql-rails', '~>1.7'
+gem 'graphql', '1.12'
+gem 'graphiql-rails', '1.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
